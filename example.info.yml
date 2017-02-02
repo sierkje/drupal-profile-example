@@ -1,0 +1,23 @@
+name: "Example"
+type: profile
+description: 'An basic example to illustrate how to create a Drupal 8 installation profile.'
+core: 8.x
+php: "7.0.0"
+distribution:
+  name: "Just an Example"
+
+dependencies:
+  # Drupal core modules
+  - block
+  - comment
+  - dblog
+  - dynamic_page_cache
+  - node
+  - page_cache
+  # Drupal contrib modules
+  - admin_toolbar
+themes:
+  # Default theme
+  - bartik
+  # Admin theme
+  - seven

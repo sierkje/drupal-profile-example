@@ -1,0 +1,9 @@
+{
+  "name": "drupal/example",
+  "description": "An basic example to illustrate how to create a Drupal 8 installation profile.",
+  "type": "drupal-profile",
+  "license": "GPL-2.0+",
+  "require": {
+      "drupal/admin_toolbar": "^1.18",
+  }
+}
